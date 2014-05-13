@@ -12,7 +12,15 @@ Editorate is a collaborative editing app.
 		<!--editor div-->
 		<div id="editorWrapper">
 			<div class="header">Editor</div>
-			<div id="editor">print("hello")</div>
+			<div id="editor">package main
+
+import(
+    "fmt"
+)
+
+func main(){
+    fmt.Printf("Hello, World!")
+}</div>
 		<div class="buttons">
 			<button onclick="alert('hello');" class="button" id="compile">Compile</button>
 		</div>
@@ -25,7 +33,7 @@ Editorate is a collaborative editing app.
 		<script>
 		    var editor = ace.edit("editor");
 		    editor.setTheme("ace/theme/monokai");
-		    editor.getSession().setMode("ace/mode/python");
+		    editor.getSession().setMode("ace/mode/golang");
 		    editor.renderer.setScrollMargin(10, 10, 0, 0);
 		</script>
 	</body>
