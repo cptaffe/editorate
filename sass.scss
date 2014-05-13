@@ -49,6 +49,10 @@ $editorbgc: rgb(40,40,40);
 			border: none;
 			outline: none;
 			border-radius: 5px;
+			transition: 0.25s all ease;
+			:hover{
+				background-color: rgb(40,40,40);
+			}
 		}
 	}
 	.output{
