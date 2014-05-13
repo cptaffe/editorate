@@ -1,0 +1,40 @@
+<!--
+Editorate is a collaborative editing app.
+
+-->
+
+<html>
+	<head>
+		<link rel="stylesheet" href="sass.css" type="text/css" title="main styling"/>
+		<script type="text/js" src="script.js"></script>
+	</head>
+	<body>
+		<!--editor div-->
+		<div id="editorWrapper">
+			<div class="header">Editor</div>
+			<div id="editor">package main
+
+import(
+    "fmt"
+)
+
+func main(){
+    fmt.Printf("Hello, World!")
+}</div>
+		<div class="buttons">
+			<button onclick="alert('hello');" class="button" id="compile">Compile</button>
+		</div>
+		<div class="output">
+			Hello
+		</div>
+		</div>
+		<!--enables editor div w/ Ace Editor-->
+		<script src="//cdn.jsdelivr.net/ace/1.1.3/min/ace.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+		    var editor = ace.edit("editor");
+		    editor.setTheme("ace/theme/monokai");
+		    editor.getSession().setMode("ace/mode/golang");
+		    editor.renderer.setScrollMargin(10, 10, 0, 0);
+		</script>
+	</body>
+</html>

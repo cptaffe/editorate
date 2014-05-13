@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Ubuntu-Mono;
+  src: url(/fonts/UbuntuMono-Regular.ttf);
+  font-weight: 400; }
+@font-face {
+  font-family: Ubuntu;
+  src: url(/fonts/Ubuntu-Regular.ttf);
+  font-weight: 400; }
+body {
+  font-family: "Ubuntu", sans-serif; }
+
+#editorWrapper {
+  margin: auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #282828;
+  border-radius: 5px; }
+  #editorWrapper .header {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center; }
+  #editorWrapper #editor {
+    width: 600px;
+    height: 200px;
+    border-radius: 5px; }
+  #editorWrapper .buttons {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    #editorWrapper .buttons .button {
+      cursor: pointer;
+      padding: 5px;
+      background-color: #3c3c3c;
+      color: white;
+      font-weight: 800;
+      border: none;
+      outline: none;
+      border-radius: 5px; }
+  #editorWrapper .output {
+    font-face: "Ubuntu-Mono";
+    font-size: 13px;
+    color: white;
+    height: 150px;
+    background-color: #646464;
+    padding: 10px;
+    border-radius: 5px; }
