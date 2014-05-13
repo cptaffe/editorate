@@ -37,8 +37,8 @@ body {
       outline: none;
       border-radius: 5px;
       transition: all 0.25s ease; }
-      #editorWrapper .buttons .button :hover {
-        background-color: #282828; }
+    #editorWrapper .buttons .button:hover {
+      background-color: #282828; }
   #editorWrapper .output {
     font-face: "Ubuntu-Mono";
     font-size: 13px;
