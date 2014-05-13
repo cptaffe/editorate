@@ -13,7 +13,7 @@ body {
   margin: auto;
   max-width: 600px;
   padding: 20px;
-  background-color: #282828;
+  background-color: #c8c8c8;
   border-radius: 5px; }
   #editorWrapper .header {
     margin-bottom: 10px;
@@ -30,7 +30,7 @@ body {
     #editorWrapper .buttons .button {
       cursor: pointer;
       padding: 5px;
-      background-color: #c8c8c8;
+      background-color: #3c3c3c;
       color: white;
       font-weight: 800;
       border: none;
