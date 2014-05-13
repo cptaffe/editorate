@@ -1,0 +1,4 @@
+editorate
+=========
+
+Eh, some stuff.
