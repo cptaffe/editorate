@@ -36,7 +36,7 @@ body {
       border: none;
       outline: none;
       border-radius: 5px;
-      transition: 0.25s all ease; }
+      transition: all 0.25s ease; }
       #editorWrapper .buttons .button :hover {
         background-color: #282828; }
   #editorWrapper .output {
